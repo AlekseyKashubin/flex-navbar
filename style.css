@@ -1,0 +1,52 @@
+* {
+    font-family: cursive;
+}
+
+.nav {
+
+    height: 80px;
+    background-color: rgb(84, 83, 83);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+
+
+h1 {
+    font-size: 50px;
+    margin-left: 45px;
+}
+
+
+.nav-links {
+
+    font-size: 20px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 40px;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    font-size: 30px;
+    color: white;
+    border: solid 3px black;
+    background-color: lightseagreen;
+    box-shadow: black 4px 4px;
+    margin-right: 45px;
+}
+
+.active {
+    font-weight: bolder;
+}
